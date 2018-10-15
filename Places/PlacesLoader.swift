@@ -29,8 +29,8 @@ struct PlacesLoader {
   
   func loadPOIS(location: CLLocation, radius: Int = 30, handler: @escaping (NSDictionary?, NSError?) -> Void) {
     print("Load pois")
-    let latitude = location.coordinate.latitude
-    let longitude = location.coordinate.longitude
+//    let latitude = location.coordinate.latitude
+//    let longitude = location.coordinate.longitude
     
 //    let uri = apiURL + "nearbysearch/json?location=\(latitude),\(longitude)&radius=\(radius)&sensor=true&types=establishment&key=\(apiKey)"
     
